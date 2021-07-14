@@ -1,0 +1,149 @@
+@media  screen and (max-width: 768px) {
+    .header-details{
+        display: grid;
+        grid-template-columns: repeat(1,300px);
+        grid-gap: none;
+    }
+    .header-info .header-text{
+        margin-left: 30px;
+    }
+    .header-info .header-text h1{
+        font-size: 30px;
+    }
+    
+
+    .header-info .btn{
+        margin-left: 30px;
+    }
+
+    .header-container{
+        padding: none;
+    }
+
+    .header-thumb .header-images img{
+        width: 300px;
+        height: 300px;
+        margin-left: 150px;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+
+    .blog-container{
+        width: 100%;
+    }
+    .blog{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog .blog-thumb{
+        margin-top: 20px;
+    }
+    .blog .blog-thumb img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sponser-contianer{
+       display: grid;
+       grid-template-columns: repeat(1,1fr );
+    }
+    .sponser-logo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .header-details{
+        display: grid;
+        grid-template-columns: repeat(1,300px);
+        grid-gap: none;
+    }
+    .header-info .header-text{
+        margin-left: 30px;
+    }
+    .header-info .header-text h1{
+        font-size: 30px;
+    }
+    
+
+    .header-info .btn{
+        margin-left: 30px;
+    }
+
+    .header-container{
+        padding: none;
+    }
+
+    .header-thumb .header-images img{
+        width: 200px;
+        height: 200px;
+        margin-left: 150px;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player h3{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .player p{
+        padding: 10px;
+    }
+    .player img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .blog-container{
+        width: 100%;
+    }
+    .blog{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog .blog-thumb{
+        margin-top: 20px;
+    }
+    .blog .blog-thumb img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sponser-contianer{
+       display: grid;
+       grid-template-columns: repeat(1,1fr );
+    }
+    .sponser-logo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .footer-container{
+        width: 100%;
+    }
+
+    .footer-content .footer-logo img{
+        width: 200px;
+        height: 100px;
+    }
+}
